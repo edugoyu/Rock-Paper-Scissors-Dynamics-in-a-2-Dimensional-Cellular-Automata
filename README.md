@@ -3,7 +3,8 @@ This repository contains a collection of Python-based simulations investigating 
 # Overview
 These scripts simulate non-hierarchical evolutionary game dynamics where species compete in a "predator-prey" cycle. In a spatial grid, these interactions prevent a single species from dominating, often resulting in the formation of entangled spiral waves that maintain biodiversity.
 # Core Functionality
-Each script implements a $200 \times 200$ grid with periodic (toroidal) boundary conditions and follows these general mechanics:\\
+Each script implements a $200 \times 200$ grid with periodic (toroidal) boundary conditions and follows these general mechanics: 
+
 -Neighbor Detection: Uses a Moore Neighborhood (8 immediate neighbors) to count the number of predators surrounding a cell.\\
 -Threshold Rule: A cell transitions to its predator state only if the number of surrounding predators meets or exceeds a fixed threshold (default is 3).\\
 -Simultaneous Updates: The entire grid is updated at each generation to observe self-organizing spatial patterns.\\
